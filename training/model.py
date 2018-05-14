@@ -7,12 +7,12 @@ from sklearn.metrics import accuracy_score # for evaluating results
 # data path and file name
 path = "ex6DataPrepared/"
 
-train_data_fn = 'train-features.txt'
-test_data_fn = "test-features.txt"
-train_label_fn = 'train-labels.txt'
-test_label_fn = 'test-labels.txt'
+train_data_fn = 'train_features.txt'
+test_data_fn = "test_features.txt"
+train_label_fn = 'train_labels.txt'
+test_label_fn = 'test_labels.txt'
 
-nwords = 2500
+nwords = 3000
 
 def read_data(data_fn, label_fn):
     ## read label_fn
